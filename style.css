@@ -9,4 +9,35 @@ gap: var(--spacing-300, 24px);
 flex: 1 0 0;
 background-color: black;
 margin: auto;
+border-radius: 12px;
+background: var(--color-grey-800, #1F1F1F);
+}
+
+img {
+width: 88px;
+height: 88px;
+border-radius: 999px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+h1 {
+align-self: stretch;
+color: var(--color-white, #FFF);
+text-align: center;
+font-family: Inter;
+font-size: var(--font-size-text-preset-1, 24px);
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+}
+
+p {
+align-self: stretch;
+color: var(--color-green, #C4F82A);
+text-align: center;
+font-family: Inter;
+font-size: var(--font-size-text-preset-2, 14px);
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
 }
