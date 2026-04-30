@@ -1,0 +1,10 @@
+main {
+display: flex;
+max-width: 384px;
+padding: var(--spacing-500, 40px);
+flex-direction: column;
+align-items: center;
+gap: var(--spacing-300, 24px);
+flex: 1 0 0;
+background-color: black;
+}
